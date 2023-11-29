@@ -13,3 +13,6 @@ console.log(typeof(newScore))
 null object => 0 number
 undefined undefined => NaN number
 */
+
+
+//****************************
