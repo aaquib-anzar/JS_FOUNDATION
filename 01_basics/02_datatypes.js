@@ -39,3 +39,4 @@ userTwo.email = "anzar@gmail.com"
 
 console.log(userOne.email)
 console.log(userTwo.email)
+
