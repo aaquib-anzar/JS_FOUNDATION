@@ -27,3 +27,10 @@ const shoppingCart = [
 ]
 const rpicetoPay = shoppingCart.reduce( (acc,item) => acc + item.price,0)
 console.log(rpicetoPay)
+
+
+
+const expenses = [1254,3652,9852,26547]
+
+const tval = expenses.reduce((acc,expenses) => acc+expenses,0)
+console.log(tval)

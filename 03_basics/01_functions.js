@@ -14,15 +14,15 @@ function loginUserMessage(Username){
 }
 //console.log(loginUserMessage())
 
-function calculateCartPrice(...num)//rest operator
+function calculateCartPrice(val1,...num)//rest operator
 {
-    return num
+    return (val1,num)
 }
 //console.log(calculateCartPrice(100,200,300))
 
 function calculateCartPrice(val1,val2,...num)//rest operator
 {
-    return num
+    return (val1,num)
 }
 //console.log(calculateCartPrice(100,200,300,400))
 
@@ -36,10 +36,10 @@ function handleObject(anyobject){
 }
 
 //handleObject(User)
-handleObject({
+/*handleObject({
     userName : "Aaquib",
     price : 29
-})
+})*/
 
 const myArr = [200,400,100,600]
 
@@ -47,4 +47,17 @@ function handleArr(getArr){
     return getArr[2]
 }
 //console.log(handleArr(myArr))
-console.log(handleArr([100,200,400,600]));
+//console.log(handleArr([100,200,400,600]));
+
+function num(val1,...nums){
+    return nums
+}
+console.log(num(2,1,24,3))
+
+function add(a,b){
+    return a+b
+
+}
+
+const myarr = [1,2]
+console.log(add(...myarr))

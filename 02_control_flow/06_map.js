@@ -19,4 +19,7 @@ const newNums = myNumbers
         .map( (num) => num+1)
             .filter( (num) => num>40)
 console.log(newNums)
+console.log(typeof(myNumbers.filter((num) => !(num & 1))))
+console.log(typeof(myNumbers.map((num) => num*10)))
+
 

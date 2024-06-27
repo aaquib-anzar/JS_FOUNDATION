@@ -33,7 +33,7 @@ const addTwo = (num1,num2) => {
 //const addtwo = (num1,num2) => (num1+num2)//implicit return
 
 const addthree = () => ({username:"Aaquib"})
-//console.log(addthree())
+console.log(addthree())
 
 
 
